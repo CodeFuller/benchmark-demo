@@ -1,6 +1,6 @@
 ﻿namespace ProductionCode
 {
-	public interface IFibonacciNumberCalculator
+	public interface IFactorialCalculator
 	{
 		int Calculate(int n);
 	}
