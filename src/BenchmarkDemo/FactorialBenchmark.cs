@@ -15,7 +15,7 @@ namespace BenchmarkDemo
 		}
 
 		[Benchmark]
-		public int IterativeCall()
+		public int CalculateIteratively()
 		{
 			return Calculate<IterativeFactorialCalculator>();
 		}
